@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="style.css">
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<head>
+	<title>Unit Conversion</title>
+</head>
+<body>
+	<h1 style="margin:auto; text-align: center;">Unit Conversion</h1>
+	<form style="width: 800px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+	<table style="width: 100%; border-collapse: separate; border-spacing: 0 10px;"
+class="table table-hover">
+	<tr>
+	<th><label>Enter a value:</label></th>
+	<td><input type="number" id="value" name="value"></td>
+	</tr>
+	<tr>
+	<th><label>Select the Input Unit:</label></th>
+	<td><select id="inputUnit" name="inputUnit">
+			<option value="m">Meters</option>
+			<option value="km">Kilometers</option>
+			<option value="cm">Centimeters</option>
+			<option value="mm">Millimeters</option>
+		</select></td>
+	</tr>
+	<tr>
+	<th><label>Select the Output Unit:</label></th>
+	<td><select id="outputUnit" name="outputUnit">
+			<option value="m">Meters</option>
+			<option value="km">Kilometers</option>
+			<option value="cm">Centimeters</option>
+			<option value="mm">Millimeters</option>
+		</select></td>
+	</tr>
+	<tr>
+	<th><button type="button" onclick="convert()">Convert</button></th>
+	</tr>
+	</table>
+	<p id="result"></p>	
+	</form>
+	
+	<script src="script.js"></script>
+	
+</body>
+</html>

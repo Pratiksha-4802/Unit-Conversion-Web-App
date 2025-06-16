@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 40px;
+	padding: 50px;
+	background-image: url("image/bg.jpg");
+}
+.html{
+	margin: 10px;
+	align-items: center;
+}
+h1 {
+	text-align: center;
+	color: #007bff;
+}
+
+.form {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.table{
+	background-image: url("image/bg2.jpg");
+}
+label {
+	margin-right: 10px;
+}
+
+input, select {
+	padding: 5px;
+	margin-right: 10px;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#result {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
